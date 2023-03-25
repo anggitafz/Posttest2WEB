@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Princess Beauty Salon & Spa</title>
+  <link rel="stylesheet" href="../file-css/style.css">
+</head>
+
+<body>
+    <header>
+      <h1>Princess Beauty Salon & Spa</h1>
+      <h3> Beauty Is a Choice</h3>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Services.html">Services</a></li>
+          <li><a href="Reservasi.html">Reservasi</a></li>
+          <li><a href="Contact.html"> About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+    <div class="reservasi">
+        <h3>Form Reservasi Salon</h3>
+        <form action="#" method="POST">
+            <label for="nama">Nama Lengkap:</label><br>
+            <input type="text" id="nama" name="nama" required><br>
+            <br>
+            
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br>
+            <br>
+    
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <br>
+            
+            <label for="telp">No. Telepon:</label><br>
+            <input type="tel" id="telp" name="telp" pattern="[0-9]{10,12}" required><br>
+            <br>
+
+            <label for="">Jenis Pelanggan:</label><br>
+            <input name="checkbox" type="checkbox" style="color: aliceblue;" value="Member Platinum">Member Platinum 
+            <input name="checkbox" style =color:aliceblue type="checkbox" value="Member Gold" >Member Gold
+            <input name="checkbox" type="checkbox" value="Reguler">Reguler
+            <br>
+            <br>
+
+            <label for="tanggal">Tanggal Reservasi:</label><br>
+            <input type="date" id="tanggal" name="tanggal" required><br>
+            <br>
+
+            <label for="jam">Jam Reservasi:</label><br>
+            <input type="time" id="jam" name="jam" required><br>
+            <br>
+
+            <label for="layanan">Layanan:</label><br>
+            <select id="layanan" name="layanan" required>
+                <option value="">Pilih Layanan</option>
+                <option value="Haircut">Haircut</option>
+                <option value="Hair Coloring">Hair Coloring</option>
+                <option value="Menicure">Menicure</option>
+                <option value="Pedicure">Pedicure</option>
+                <option value="Facial">Facial</option>
+            <br>
+
+            </select><br>
+            <label>Jenis Pembayaran</label>
+            <label for="Cash">
+            <input type="radio" id="bayar" name="sama" value="Cash"> Cash
+            </label> 
+            <label for="Transfer">
+            <input type="radio" id="bayar" name="sama" value="Transfer"> Transfer
+            </label>
+            <br>
+
+            <br>
+            <label for="komentar">Komentar:</label><br>
+            <textarea id="komentar" name="komentar" rows="5"></textarea><br>
+            <br>
+            <a id="submit" href="" onclick="daftar()" type="submit">SUBMIT</a>
+            <br><br>
+
+        </form>
+    </div>
+
+    <footer>
+      <p>Copyright © Princess Beauty Salon & Spa</p>
+    </footer>
+  
+    <!-- <script src="js/tes.js"></script> -->
+    <script src="../file-js/script.js"></script>
+  </body>
+  </html>
+

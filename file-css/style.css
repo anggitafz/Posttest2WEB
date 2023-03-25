@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+  header {
+    background-color: #f3b3c7;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  header h3{
+    padding: 10px 10px 10px 10px;
+  }
+  
+  header #sapa_user{
+    font-size: 1.5em;
+    padding-top: 25px;
+    color: #fff;
+  }
+
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f7a7c0;
+    color: #fff;
+  }
+  
+  footer {
+    background-color: #f7a7c0;
+    color: #fff;
+    bottom: 0;
+  }
+
+  .banner button {
+	background-color: #00c4ff;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer
+  }
+
+  .reservasi{
+    border :1px solid red;
+    text-align: center;
+  }
+
+  .beranda{
+    font-family: serif;
+
+  }
+
+  .reservasi form a{
+    color: #000;
+    text-decoration: none;
+    border: 3px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .reservasi form a:hover{
+    font-weight: bolder;
+  }
+
